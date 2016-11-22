@@ -57,7 +57,7 @@
             this.consultarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(646, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(646, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,14 +65,15 @@
             // 
             this.registrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem});
+            this.registrarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarToolStripMenuItem.Name = "registrarToolStripMenuItem";
-            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.registrarToolStripMenuItem.Size = new System.Drawing.Size(73, 21);
             this.registrarToolStripMenuItem.Text = "Registrar";
             // 
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -80,34 +81,35 @@
             // 
             this.consultarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultaToolStripMenuItem});
+            this.consultarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(76, 21);
             this.consultarToolStripMenuItem.Text = "Consultas";
             // 
             // consultaToolStripMenuItem
             // 
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.consultaToolStripMenuItem.Text = "Consultar";
             this.consultaToolStripMenuItem.Click += new System.EventHandler(this.consultaToolStripMenuItem_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 37);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(70, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 18);
+            this.label1.Size = new System.Drawing.Size(27, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "ID";
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IdTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IdTextBox.ForeColor = System.Drawing.Color.Red;
-            this.IdTextBox.Location = new System.Drawing.Point(34, 34);
+            this.IdTextBox.Location = new System.Drawing.Point(105, 26);
             this.IdTextBox.Name = "IdTextBox";
-            this.IdTextBox.Size = new System.Drawing.Size(50, 24);
+            this.IdTextBox.Size = new System.Drawing.Size(144, 29);
             this.IdTextBox.TabIndex = 2;
             // 
             // BuscarBoton
@@ -139,12 +141,13 @@
             this.Telefono.Controls.Add(this.label2);
             this.Telefono.Controls.Add(this.label1);
             this.Telefono.Controls.Add(this.IdTextBox);
+            this.Telefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Telefono.Location = new System.Drawing.Point(24, 56);
             this.Telefono.Name = "Telefono";
             this.Telefono.Size = new System.Drawing.Size(382, 130);
             this.Telefono.TabIndex = 5;
             this.Telefono.TabStop = false;
-            this.Telefono.Text = "Telefono";
+            this.Telefono.Text = "Cliente";
             // 
             // ClienteTextBox
             // 
@@ -177,7 +180,7 @@
             // 
             // AgregarBoton
             // 
-            this.AgregarBoton.BackColor = System.Drawing.Color.Chocolate;
+            this.AgregarBoton.BackColor = System.Drawing.Color.SeaShell;
             this.AgregarBoton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AgregarBoton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgregarBoton.Image = global::Yinet_Jaquez__AplicadaI_P2.Properties.Resources.anadir_mas_icono_6734_48;
@@ -195,7 +198,7 @@
             // 
             this.ListaDataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ListaDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ListaDataGridView.GridColor = System.Drawing.Color.PeachPuff;
+            this.ListaDataGridView.GridColor = System.Drawing.Color.OrangeRed;
             this.ListaDataGridView.Location = new System.Drawing.Point(58, 260);
             this.ListaDataGridView.Name = "ListaDataGridView";
             this.ListaDataGridView.Size = new System.Drawing.Size(523, 129);
@@ -203,7 +206,7 @@
             // 
             // InsertarBoton
             // 
-            this.InsertarBoton.BackColor = System.Drawing.Color.Chocolate;
+            this.InsertarBoton.BackColor = System.Drawing.Color.SeaShell;
             this.InsertarBoton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.InsertarBoton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InsertarBoton.Image = global::Yinet_Jaquez__AplicadaI_P2.Properties.Resources.anadir_mas_icono_6734_48;
@@ -222,7 +225,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
-            this.ClientSize = new System.Drawing.Size(646, 401);
+            this.ClientSize = new System.Drawing.Size(646, 446);
             this.Controls.Add(this.InsertarBoton);
             this.Controls.Add(this.ListaDataGridView);
             this.Controls.Add(this.AgregarBoton);

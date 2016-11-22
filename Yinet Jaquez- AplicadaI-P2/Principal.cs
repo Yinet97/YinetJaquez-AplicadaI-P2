@@ -67,6 +67,5 @@ namespace Yinet_Jaquez__AplicadaI_P2
             UI.ConsultaCliente cc = new UI.ConsultaCliente();
             cc.Show();
         }
-        
     }
 }
